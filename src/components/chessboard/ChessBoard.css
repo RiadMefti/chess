@@ -1,0 +1,11 @@
+.chess-board {
+  width: 800px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  background-color: #fff;
+}

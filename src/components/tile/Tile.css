@@ -1,0 +1,38 @@
+.black {
+  width: 100%;
+  height: 100%;
+  background-color: #779756;
+}
+
+.white {
+  width: 100%;
+  height: 100%;
+  background-color: #efeed3;
+}
+.tile {
+  position: relative;
+}
+.letter {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3px;
+  font-weight: bold;
+}
+.number {
+  position: absolute;
+  bottom: 1;
+  right: 1;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.white-font {
+  color: #efeed3;
+  font-size: larger;
+}
+
+.black-font {
+  color: #779756;
+  font-size: larger;
+}
